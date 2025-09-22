@@ -1,9 +1,9 @@
-                                                                    Sistema de Agendamento de Workshops
+                                                                    Sistema de Agendamento de Workshops 🎉
 Descrição:
 
 Sistema web baseado no padrão arquitetural MVC (Model-View-Controller) para gerenciar workshops e permitir que usuários se inscrevam em sessões específicas. O sistema facilita a organização e o controle das atividades, proporcionando uma experiência simples e intuitiva para administradores e participantes.
 
-Funcionalidades:
+Funcionalidades: ⚙️
 
 Cadastro, edição e exclusão de workshops.
 
@@ -17,18 +17,15 @@ Consulta de inscrições por usuário e por workshop.
 
 Controle básico de autenticação (dependendo da implementação).
 
-Estrutura do Banco de Dados
-
-O sistema utiliza três tabelas principais:
-
+Estrutura do Banco de Dados: 🗄️
 Tabela	Descrição
 Workshops	Armazena informações sobre cada workshop
 Usuários	Dados dos usuários que podem se inscrever nos workshops
 Inscrições	Registra as inscrições dos usuários nos workshops
-Tecnologias Utilizadas
+Tecnologias Utilizadas: 💻
 
-Linguagem de programação: [PHP]
+Linguagem de programação: PHP 🐘
 
-Banco de dados: [MySQL]
+Banco de dados: MySQL 🐬
 
-Front-end: [HTML, CSS]
+Front-end: HTML, CSS 🎨
