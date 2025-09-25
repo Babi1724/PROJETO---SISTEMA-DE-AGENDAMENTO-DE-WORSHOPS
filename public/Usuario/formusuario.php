@@ -5,15 +5,20 @@
     <?php } ?>
 
     <!-- Nome -->
-    <label>Nome:</label>
+    <label>nome:</label>
     <input type="text" name="nome" 
            value="<?= ($parametro != null) ? $parametro[0]["nome"] : "" ?>" required />
     <br />
 
     <!-- Email -->
-    <label>Email:</label>
+    <label>email:</label>
     <input type="email" name="email" 
            value="<?= ($parametro != null) ? $parametro[0]["email"] : "" ?>" required />
+    <br />
+
+    <!-- Senha -->
+    <label>Senha:</label>
+    <input type="password" name="senha" required />
     <br />
 
     <!-- Telefone -->
@@ -22,10 +27,13 @@
            value="<?= ($parametro != null) ? $parametro[0]["telefone"] : "" ?>" required />
     <br />
 
-    <!-- Senha -->
-    <label>Senha:</label>
-    <input type="password" name="senha" required />
+    <!-- data_cadastro -->
+    <label>data_cadastro:</label>
+    <input type="date" name="data_cadastro" 
+           value="<?= ($parametro != null) ? $parametro[0]["data_cadastro"] : "" ?>" required />
     <br />
+
+    
 
     <input type="submit" value="Salvar Usuário">
 </form>

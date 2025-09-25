@@ -5,6 +5,7 @@
         <th>Nome</th>
         <th>Email</th>
         <th>Telefone</th>
+        <th>data_cadastro</th>
         <th>Ações</th>
     </tr>
 
@@ -14,6 +15,7 @@
             <td><?= $u["nome"] ?></td>
             <td><?= $u["email"] ?></td>
             <td><?= $u["telefone"] ?></td>
+            <td><?= $u["data_cadastro"] ?></td>
 
             <td>
                 <a href="/workshop/usuario/formularioalterar?id=<?= $u['usuario_id'] ?>">Alterar</a> |

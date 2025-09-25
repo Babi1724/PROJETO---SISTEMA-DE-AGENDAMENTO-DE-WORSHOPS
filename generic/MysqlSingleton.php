@@ -2,7 +2,7 @@
 class MysqlSingleton {
     private $usuario = 'root';
     private $senha = '';
-    private $dsn = 'mysql:host=localhost;dbname=agendamento_workshop;charset=utf8';
+    private $dsn = 'mysql:host=localhost;dbname=agendamento_workshops;charset=utf8';
     private $conexao = null;
 
     // Instância única da classe
